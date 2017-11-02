@@ -32,7 +32,7 @@ export default class ListViewTest extends Component {
 
   render() {
     return (
-    <LView/>
+    <BannerView/>
     );
   }
 }
