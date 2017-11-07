@@ -20,6 +20,7 @@ var cols = 3;
 var boxW = 100;
 var vMargin = (width - cols * boxW) / (cols + 1)-8;//九宫格算法....
 var hMargin = 25;
+var Data = require('../Data.json');
 
 
 // AlertIOS.alert('屏幕宽度：',''+width);
@@ -37,7 +38,6 @@ export default class JiuGong extends Component {
     }
 
     renderImage(){
-        var Data = require('./Data.json');
         var img = [];
         for (var i = 0;i <Data.length;i++){
             var item = Data[i];

@@ -16,10 +16,11 @@ import {
 } from 'react-native';
 
 //导入图片数据
-var imageData = require('./BannerData.json');
+var imageData = require('../BannerData.json');
 //获取屏幕分辨率和宽度
 var Dimensions = require('Dimensions');
 var {width} = Dimensions.get('window');
+
 
 export default class BannerView extends Component {
     state={

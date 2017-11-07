@@ -22,7 +22,7 @@ export default class ImageDemo extends Component {
                 <Text style={styles.instructions}>
                     本地图片
                 </Text>
-                <Image source={require('./img/icon3.png')} style={styles.iconStyle} />
+                <Image source={require('../img/icon3.png')} style={styles.iconStyle} />
                 <Text style={styles.instructions}>
                     APP图片
                 </Text>

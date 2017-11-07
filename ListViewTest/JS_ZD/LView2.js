@@ -16,7 +16,7 @@ import {
     AlertIOS
 } from 'react-native';
 
-var Heros = require('./heros.json');
+var Heros = require('../heros.json');
 var Dimensions = require('Dimensions');
 var {width} = Dimensions.get('window');
 
