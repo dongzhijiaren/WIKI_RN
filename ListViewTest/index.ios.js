@@ -26,6 +26,8 @@ import RNStateDemo from './JS_ZD/RNStateDemo'
 import BannerView from './JS_ZD/BannerView'
 //TabBarIOS示例
 import TabBarDemo from './JS_ZD/TabBarDemo'
+//Navigator示例
+import NavigatorDemo from './JS_ZD/Navigator/NavigatorDemo'
 
 
 
@@ -34,7 +36,7 @@ export default class ListViewTest extends Component {
 
   render() {
     return (
-    <TabBarDemo/>
+    <NavigatorDemo />
     );
   }
 }

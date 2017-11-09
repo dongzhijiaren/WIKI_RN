@@ -10,12 +10,14 @@ import {
     StyleSheet,
     Text,
     View,
-    TabBarIOS
+    TabBarIOS,
 } from 'react-native';
 var Dimensions = require('Dimensions');
 var {width} = Dimensions.get('window');
 
 export default class TabBarDemo extends Component {
+    
+
 
     constructor(props){
         super(props);
