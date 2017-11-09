@@ -29,3 +29,6 @@ import TabBarDemo from './JS_ZD/TabBarDemo'
 
 8，Navigator示例（传值/函数和逆传）
 import NavigatorDemo from './JS_ZD/Navigator/NavigatorDemo'
+
+9，原生UI组件交互
+import IOSNativeUI from './JS_ZD/NativeUI/IOSNativeUI'
