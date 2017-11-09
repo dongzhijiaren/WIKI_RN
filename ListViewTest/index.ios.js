@@ -6,10 +6,10 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View,
 } from 'react-native';
 
 //列表展示练习（ListView)
@@ -28,6 +28,9 @@ import BannerView from './JS_ZD/BannerView'
 import TabBarDemo from './JS_ZD/TabBarDemo'
 //Navigator示例
 import NavigatorDemo from './JS_ZD/Navigator/NavigatorDemo'
+//原生UI组件交互
+import IOSNativeUI from './JS_ZD/NativeUI/IOSNativeUI'
+
 
 
 
@@ -36,7 +39,7 @@ export default class ListViewTest extends Component {
 
   render() {
     return (
-    <NavigatorDemo />
+    <IOSNativeUI />
     );
   }
 }

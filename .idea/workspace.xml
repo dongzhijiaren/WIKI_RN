@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17f75abf-b8d0-4f5d-921f-221b3cba9c66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/FirstView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/NavigatorDemo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/SecondView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ListViewTest/JS_ZD/NativeUI/IOSNativeUI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ListViewTest/ios/ShareView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ListViewTest/ios/ShareView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ListViewTest/ios/User.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ListViewTest/ios/User.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListViewTest/JS_ZD/TabBarDemo.js" afterPath="$PROJECT_DIR$/ListViewTest/JS_ZD/TabBarDemo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListViewTest/index.ios.js" afterPath="$PROJECT_DIR$/ListViewTest/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListViewTest/package.json" afterPath="$PROJECT_DIR$/ListViewTest/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListViewTest/yarn.lock" afterPath="$PROJECT_DIR$/ListViewTest/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListViewTest/ios/ListViewTest.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ListViewTest/ios/ListViewTest.xcodeproj/project.pbxproj" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +26,7 @@
       <file leaf-file-name="TabBarDemo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/TabBarDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="0">
               <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -39,10 +39,22 @@
       <file leaf-file-name="index.ios.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListViewTest/index.ios.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOSNativeUI.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/NativeUI/IOSNativeUI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#89#130#0" expanded="true" />
+                <element signature="e#333#384#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,34 +63,12 @@
       <file leaf-file-name="NavigatorDemo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/NavigatorDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="320">
               <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#89#130#0" expanded="true" />
                 <element signature="e#284#351#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/FirstView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecondView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/SecondView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#89#130#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,10 +102,12 @@
         <option value="$PROJECT_DIR$/ListViewTest/JS_ZD/JiuGong.js" />
         <option value="$PROJECT_DIR$/ListViewTest/JS_ZD/NavigatorDemo.js" />
         <option value="$PROJECT_DIR$/ListViewTest/JS_ZD/TabBarDemo.js" />
-        <option value="$PROJECT_DIR$/ListViewTest/index.ios.js" />
         <option value="$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/NavigatorDemo.js" />
         <option value="$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/SecondView.js" />
         <option value="$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/FirstView.js" />
+        <option value="$PROJECT_DIR$/ListViewTest/JS_ZD/原生UI/IOSNativeUI.js" />
+        <option value="$PROJECT_DIR$/ListViewTest/index.ios.js" />
+        <option value="$PROJECT_DIR$/ListViewTest/JS_ZD/NativeUI/IOSNativeUI.js" />
       </list>
     </option>
   </component>
@@ -129,9 +121,9 @@
     <handled-path value="$PROJECT_DIR$/ListViewTest/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="563" />
+    <option name="x" value="619" />
     <option name="y" value="23" />
-    <option name="width" value="1075" />
+    <option name="width" value="974" />
     <option name="height" value="987" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -150,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -175,12 +166,13 @@
               <item name="WIKI_RN" type="462c0819:PsiDirectoryNode" />
               <item name="ListViewTest" type="462c0819:PsiDirectoryNode" />
               <item name="JS_ZD" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigator" type="462c0819:PsiDirectoryNode" />
+              <item name="NativeUI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,6 +188,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ListViewTest/JS_ZD/NativeUI" />
       <recent name="$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator" />
       <recent name="$PROJECT_DIR$/ListViewTest/JS_ZD" />
     </key>
@@ -232,18 +225,19 @@
       <workItem from="1510017942951" duration="1731000" />
       <workItem from="1510044876894" duration="3871000" />
       <workItem from="1510103288342" duration="15086000" />
-      <workItem from="1510188993678" duration="1945000" />
+      <workItem from="1510188993678" duration="3984000" />
+      <workItem from="1510195782078" duration="7687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44466000" />
+    <option name="totallyTimeSpent" value="54192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="563" y="23" width="1075" height="987" extended-state="0" />
+    <frame x="619" y="23" width="974" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1850095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22980063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -274,6 +268,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ListViewTest/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/TabBarDemo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -310,7 +312,7 @@
         <state relative-caret-position="300">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -330,9 +332,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#89#130#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -370,6 +370,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="24" column="15" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#89#130#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -384,9 +388,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#89#130#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -424,6 +426,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="24" column="15" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#89#130#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -438,9 +444,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#89#130#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -471,6 +475,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="24" column="15" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#89#130#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -485,9 +493,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#89#130#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -517,6 +523,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="24" column="15" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#89#130#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,9 +534,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#89#130#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -545,14 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListViewTest/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ListViewTest/BannerData.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -564,6 +564,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#89#130#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -619,7 +623,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/TabBarDemo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="0">
           <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -630,14 +634,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListViewTest/index.android.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="38" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="46" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/SecondView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#89#130#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/FirstView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/NavigatorDemo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="320">
           <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -647,31 +670,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/SecondView.js">
+    <entry file="file://$PROJECT_DIR$/ListViewTest/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#89#130#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="119" column="6" lean-forward="false" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ListViewTest/index.ios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#89#130#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/Navigator/FirstView.js">
+    <entry file="file://$PROJECT_DIR$/ListViewTest/JS_ZD/NativeUI/IOSNativeUI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#333#384#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
