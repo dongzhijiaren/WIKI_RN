@@ -20,3 +20,12 @@ import TimerDemo from './TimerDemo'
 5，RN状态机
 
 import RNStateDemo from './RNStateDemo'
+
+6，轮播图例子
+import BannerView from './JS_ZD/BannerView'
+
+7，TabBarIOS示例
+import TabBarDemo from './JS_ZD/TabBarDemo'
+
+8，Navigator示例（传值/函数和逆传）
+import NavigatorDemo from './JS_ZD/Navigator/NavigatorDemo'
