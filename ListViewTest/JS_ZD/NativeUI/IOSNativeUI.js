@@ -15,8 +15,9 @@ import {
 } from 'react-native';
 
 import {Navigator} from 'react-native-deprecated-custom-components'
-//导入原生控件支持库
+//获取原生控件支持库
 import {requireNativeComponent} from 'react-native'
+//获取原生类中的属性和方法
 import {NativeModules} from 'react-native'
 
 
