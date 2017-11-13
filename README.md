@@ -32,3 +32,6 @@ import NavigatorDemo from './JS_ZD/Navigator/NavigatorDemo'
 
 9，原生UI组件交互
 import IOSNativeUI from './JS_ZD/NativeUI/IOSNativeUI'
+
+10，自定义Tabbar+Navigator
+import ZDMain from './JS_ZD/TabBar+Navigator/ZDMain'
