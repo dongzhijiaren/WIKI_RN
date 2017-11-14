@@ -26,12 +26,15 @@ import RNStateDemo from './JS_ZD/RNStateDemo'
 import BannerView from './JS_ZD/BannerView'
 //TabBarIOS示例
 import TabBarDemo from './JS_ZD/TabBarDemo'
-//Navigator示例
+//Navigator示例(已被弃用)
 import NavigatorDemo from './JS_ZD/Navigator/NavigatorDemo'
 //原生UI组件交互
 import IOSNativeUI from './JS_ZD/NativeUI/IOSNativeUI'
 //自定义Tabbar+Navigator
 import ZDMain from './JS_ZD/TabBar+Navigator/ZDMain'
+//React-Navigation（替换Navigator)
+import RNavigationDemo from './JS_ZD/React-navigation/RNavigationDemo'
+
 
 
 
@@ -41,7 +44,7 @@ export default class ListViewTest extends Component {
 
   render() {
     return (
-    <ZDMain />
+    <RNavigationDemo />
     );
   }
 }
