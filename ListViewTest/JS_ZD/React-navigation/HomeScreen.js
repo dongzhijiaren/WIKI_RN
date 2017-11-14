@@ -27,7 +27,7 @@ export default class HomeScreen extends Component {
                     <View>
                         <Text style={styles.welcome}>
                             Welcome to HomeScreen
-                            {this.props.navigation.state.name}
+                            点我跳转到下个页面
                         </Text>
                     </View>
                 </TouchableOpacity>
