@@ -40,3 +40,7 @@ import IOSNativeUI from './JS_ZD/NativeUI/IOSNativeUI'
 10，自定义Tabbar+Navigator
 
 import ZDMain from './JS_ZD/TabBar+Navigator/ZDMain'
+
+11，React-Navigation（替换Navigator)
+
+import RNavigationDemo from './JS_ZD/React-navigation/RNavigationDemo'
